@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-"scripts": {
-  "dev": "tsx src/server.ts",
-  "build": "node ./node_modules/typescript/bin/tsc",
-  "start": "node dist/server.js",
-  "prisma:generate": "npx prisma generate",
-  "prisma:migrate": "npx prisma migrate dev --name init",
-  "prisma:deploy": "npx prisma migrate deploy"
-}
-
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "node ./node_modules/typescript/bin/tsc",
+    "start": "node dist/server.js",
+    "prisma:generate": "npx prisma generate",
+    "prisma:migrate": "npx prisma migrate dev --name init",
+    "prisma:deploy": "npx prisma migrate deploy"
   },
   "dependencies": {
     "@prisma/client": "^5.18.0",
